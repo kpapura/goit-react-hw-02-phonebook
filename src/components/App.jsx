@@ -14,7 +14,7 @@ class App extends Component {
       { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
     ],
     filter: '',
-  }
+  };
 
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
